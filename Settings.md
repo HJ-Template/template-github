@@ -79,3 +79,7 @@ defaults:
       layout: single
       author_profile: true
 ```
+
+## Github Setting
+
+![image](https://user-images.githubusercontent.com/84965194/120397342-28513c80-c373-11eb-80fd-09e951d06d00.png)
