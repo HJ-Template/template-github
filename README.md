@@ -4,6 +4,8 @@
 
 현재 프로젝트를 다운받아서 본인의 깃허브에 올립니다. 다음 그림과 같이 Code 탭에서 zip 파일의 형태로 프로젝트를 다운받으실 수 있습니다.
 
+![image](https://user-images.githubusercontent.com/84965194/120553964-1b485200-c434-11eb-9085-6d72425db213.png)
+
 ## 깃허브 프로젝트에서 페이지 옵션을 활성화하기
 
 1. Settings 메뉴를 클릭합니다.
@@ -11,28 +13,6 @@
 3. 우측에 Branch 선택하는 부분에서 master 를 클릭해줍니다. (기본값 None)
 
 ![image](https://user-images.githubusercontent.com/84965194/120397342-28513c80-c373-11eb-80fd-09e951d06d00.png)
-
-## 루비를 설치합니다
-
-아래 링크에 접속해서 두꺼운 글씨로 표시되어있는 버전을 클릭하여 다운받아 설치합니다.
-https://rubyinstaller.org/downloads/
-
-## 번들러를 설치합니다
-
-터미널 창을 켜서 번들러를 설치합니다 (windows powershell / git bash ...)
-
-```
-$ gem install bundler
-$ bundle
-```
-
-## 로컬에서 서버를 돌려봅니다
-
-원래는 포스팅 내용을 업로드 한 다음, 깃허브 블로그를 확인해야 하지만 이렇게 본인 컴퓨터에서 변경 내용을 실시간으로 확인할 수 있습니다.
-
-```
-$ jekyll serve –port 4000
-```
 
 ## \_config.yml 파일에서 정보를 설정합니다.
 
@@ -76,4 +56,52 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/" 있으면 적으면 됨
+```
+
+## 루비를 설치합니다
+
+아래 링크에 접속해서 두꺼운 글씨로 표시되어있는 버전을 클릭하여 다운받아 설치합니다.
+https://rubyinstaller.org/downloads/
+
+![image](https://user-images.githubusercontent.com/84965194/120553752-d7ede380-c433-11eb-953d-c5b2107d79f9.png)
+
+## 번들러를 설치합니다
+
+터미널 창을 켜서 번들러를 설치합니다 (windows powershell / git bash ...)
+
+```
+$ gem install bundler
+$ bundle
+```
+
+## 로컬에서 서버를 돌려봅니다
+
+원래는 포스팅 내용을 업로드 한 다음, 깃허브 블로그를 확인해야 하지만 이렇게 본인 컴퓨터에서 변경 내용을 실시간으로 확인할 수 있습니다.
+
+```
+$ jekyll serve –port 4000
+```
+
+## 이제 포스팅을 시작하시면 됩니다
+
+_posts 폴더 안에 md 확장자 파일로 하나씩 포스팅하시면 됩니다!
+
+***예시***
+파일명 : 2010-01-07-post-modified.md
+
+```
+---
+title: "Post: Modified Date"
+last_modified_at: 2016-03-09T16:20:02-05:00
+categories:
+  - Post Formats
+tags:
+  - Post Formats
+  - readability
+  - standard
+---
+
+This post has been updated and should show a modified date if used in a layout.
+
+All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a garden, and she plucked another flower and ran with it to her mother. I suppose she must have looked rather delightful, for Mrs. Darling put her hand to her heart and cried, "Oh, why can't you remain like this for ever!" This was all that passed between them on the subject, but henceforth Wendy knew that she must grow up. You always know after you are two. Two is the beginning of the end.
 ```
