@@ -6,7 +6,7 @@
 
 ![image](https://user-images.githubusercontent.com/84965194/120553964-1b485200-c434-11eb-9085-6d72425db213.png)
 
-## 깃허브 프로젝트에서 페이지 옵션을 활성화하기
+## 깃허브 프로젝트에서 페이지 옵션을 활성화
 
 1. Settings 메뉴를 클릭합니다.
 2. 이어서 왼쪽에 Pages 메뉴를 클릭합니다.
@@ -14,7 +14,7 @@
 
 ![image](https://user-images.githubusercontent.com/84965194/120397342-28513c80-c373-11eb-80fd-09e951d06d00.png)
 
-## \_config.yml 파일에서 정보를 설정합니다.
+## \_config.yml 파일에서 정보를 설정
 
 ```yml
 # Site Settings
@@ -58,14 +58,14 @@ author:
       # url: "https://instagram.com/" 있으면 적으면 됨
 ```
 
-## 루비를 설치합니다
+## 루비 설치
 
 아래 링크에 접속해서 두꺼운 글씨로 표시되어있는 버전을 클릭하여 다운받아 설치합니다.
 https://rubyinstaller.org/downloads/
 
 ![image](https://user-images.githubusercontent.com/84965194/120553752-d7ede380-c433-11eb-953d-c5b2107d79f9.png)
 
-## 번들러를 설치합니다
+## 번들러 설치
 
 터미널 창을 켜서 번들러를 설치합니다 (windows powershell / git bash ...)
 
@@ -74,7 +74,7 @@ $ gem install bundler
 $ bundle
 ```
 
-## 로컬에서 서버를 돌려봅니다
+## 개인 컴퓨터에서 서버를 실행
 
 원래는 포스팅 내용을 업로드 한 다음, 깃허브 블로그를 확인해야 하지만 이렇게 본인 컴퓨터에서 변경 내용을 실시간으로 확인할 수 있습니다.
 
@@ -82,7 +82,7 @@ $ bundle
 $ jekyll serve –port 4000
 ```
 
-## 이제 포스팅을 시작하시면 됩니다
+## 포스팅!!
 
 _posts 폴더 안에 md 확장자 파일로 하나씩 포스팅하시면 됩니다!
 
