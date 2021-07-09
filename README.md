@@ -84,9 +84,9 @@ $ jekyll serve –port 4000
 
 ## 포스팅!!
 
-_posts 폴더 안에 md 확장자 파일로 하나씩 포스팅하시면 됩니다!
+\_posts 폴더 안에 md 확장자 파일로 하나씩 포스팅하시면 됩니다!
 
-***예시***
+**_예시_**
 파일명 : 2010-01-07-post-modified.md
 
 ```
@@ -105,3 +105,5 @@ This post has been updated and should show a modified date if used in a layout.
 
 All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a garden, and she plucked another flower and ran with it to her mother. I suppose she must have looked rather delightful, for Mrs. Darling put her hand to her heart and cried, "Oh, why can't you remain like this for ever!" This was all that passed between them on the subject, but henceforth Wendy knew that she must grow up. You always know after you are two. Two is the beginning of the end.
 ```
+
+새로운 기능 추가
